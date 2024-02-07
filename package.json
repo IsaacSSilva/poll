@@ -1,0 +1,19 @@
+{
+  "name": "poll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "tsx watch src/http/server.ts"
+  },
+  "author": "Isaac S. Silva",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "prisma": "^5.9.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "fastify": "^4.26.0"
+  }
+}
