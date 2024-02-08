@@ -9,3 +9,35 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model Poll {
+  id        String   @id @default(uuid())
+  title     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+
+  PollOption PollOption[]
+  Voto       Voto[]
+}
+
+model PollOption {
+  id     String @id @default(uuid())
+  title  String
+  pollId String
+
+  poll Poll   @relation(fields: [pollId], references: [id])
+  Voto Voto[]
+}
+
+model Voto {
+  id           Int      @id @default(autoincrement())
+  sessionId    String
+  pollOptionId String
+  pollId       String
+  creatdAd     DateTime @default(now())
+
+  pollOption PollOption @relation(fields: [pollOptionId], references: [id])
+  poll       Poll       @relation(fields: [pollId], references: [id])
+
+  @@unique([sessionId, pollId])
+}
