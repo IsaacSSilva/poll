@@ -24,6 +24,6 @@ export async function creatPolls(app: FastifyInstance) {
       }
     })
 
-    return reply.status(201).send(poll.id)
+    return reply.status(201).send(poll)
   })
 }
