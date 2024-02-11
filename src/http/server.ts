@@ -3,7 +3,6 @@ import { creatPolls } from './routers/creat-polls'
 import { getPoll } from './routers/get-poll'
 import { creatVoto } from './routers/creat-on-votos'
 import cookie from '@fastify/cookie'
-import { yearInSeconds } from '../../lip/timeInSeconds'
 
 const app = fastify()
 
@@ -17,5 +16,5 @@ app.register(getPoll)
 app.register(creatVoto)
 
 app.listen({ port: 3333 }).then(() => {
-  console.log('Runner Server HTTP! 🔥' + yearInSeconds(1))
+  console.log('Runner Server HTTP! 🔥')
 })
