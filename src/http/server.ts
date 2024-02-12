@@ -3,6 +3,8 @@ import { creatPolls } from './routers/creat-polls'
 import { getPoll } from './routers/get-poll'
 import { creatVoto } from './routers/creat-on-votos'
 import cookie from '@fastify/cookie'
+import websocket from '@fastify/websocket'
+import { pollResults } from './ws/poll-results'
 
 const app = fastify()
 
@@ -11,9 +13,12 @@ app.register(cookie, {
   hook: 'onRequest'
 })
 
+app.register(websocket)
+
 app.register(creatPolls)
 app.register(getPoll)
 app.register(creatVoto)
+app.register(pollResults)
 
 app.listen({ port: 3333 }).then(() => {
   console.log('Runner Server HTTP! 🔥')
