@@ -16,13 +16,13 @@ Desenvolvida com o intuito de alimentar uma aplicacao fron-end _(em desenvolvime
  - Validacao segura
   
 ### Tech:
-![Texto Alternativo]([URL_da_Imagem](https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white))
-![Texto Alternativo]([URL_da_Imagem](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white))
-![Texto Alternativo]([URL_da_Imagem](https://img.shields.io/badge/ts--node-3178C6?style=for-the-badge&logo=ts-node&logoColor=white))
-![Texto Alternativo]([URL_da_Imagem](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white))
-![Texto Alternativo]([URL_da_Imagem](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white))
-![Texto Alternativo]([URL_da_Imagem](https://img.shields.io/badge/Insomnia-4000BF?logo=insomnia&logoColor=white&style=for-the-badge))
-![Texto Alternativo]([URL_da_Imagem](https://fastify.dev/img/logos/fastify-white.svg))
+![redis](https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![ts--node](https://img.shields.io/badge/ts--node-3178C6?style=for-the-badge&logo=ts-node&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
+![docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?logo=insomnia&logoColor=white&style=for-the-badge)
+<img src="https://fastify.dev/img/logos/fastify-white.svg" alt="fastify" width="30" height="30">
 
 
 ### Getting Started
