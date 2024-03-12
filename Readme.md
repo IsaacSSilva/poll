@@ -22,7 +22,7 @@ Desenvolvida com o intuito de alimentar uma aplicacao fron-end _(em desenvolvime
 ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
 ![docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?logo=insomnia&logoColor=white&style=for-the-badge)
-<img src="https://fastify.dev/img/logos/fastify-white.svg" alt="fastify" width="30" height="30">
+<img src="https://fastify.dev/img/logos/fastify-white.svg" alt="fastify" width="120" height="67">
 
 
 ### Getting Started
