@@ -1,0 +1,38 @@
+POST http://localhost:3333/polls
+content-type: application/json
+
+{
+	"title": "tecnologias para front end vocês querem usar ?",
+	"options": [
+		"next.js",
+		"remix",
+		"Astro",
+		"html, css, javascript"
+	]
+}
+
+###
+
+POST  http://localhost:3333/polls/[:pollId]/voto
+content-type: application/json
+
+{
+	"pollOptionId": // id da opcao corespondente ao id da enquete
+}
+
+###
+
+GET http://localhost:3333/polls/all
+
+###
+
+GET http://localhost:3333/polls/[:pollId]
+
+###
+
+DELETE http://localhost:3333/polls/[:pollId]
+content-type: application/json
+
+{
+	"approval": false
+}
