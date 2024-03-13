@@ -5,6 +5,8 @@ import { creatVoto } from './routers/creat-on-votos'
 import cookie from '@fastify/cookie'
 import websocket from '@fastify/websocket'
 import { pollResults } from './ws/poll-results'
+import { getAllPoll } from './routers/get-all-polls'
+import { deletePolls } from './routers/delete-poll'
 
 const app = fastify()
 
@@ -15,8 +17,10 @@ app.register(cookie, {
 
 app.register(websocket)
 
-app.register(creatPolls)
+app.register(deletePolls)
+app.register(getAllPoll)
 app.register(getPoll)
+app.register(creatPolls)
 app.register(creatVoto)
 app.register(pollResults)
 
